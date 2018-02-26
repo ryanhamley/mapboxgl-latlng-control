@@ -2,7 +2,7 @@
   "name": "mapboxgl-latlng-control",
   "version": "0.0.1",
   "description": "Display latitude and longitude of mouse on MapboxGL maps",
-  "main": "index.js",
+  "main": "dist/LatLngControl.js",
   "scripts": {
     "compile": "npm run clean && npm run copyHtml && babel --presets es2015,stage-0 -d dist/ control/",
     "clean": "rm dist/*",
