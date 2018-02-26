@@ -1,6 +1,6 @@
 {
   "name": "mapboxgl-latlng-control",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Display latitude and longitude of mouse on MapboxGL maps",
   "main": "dist/LatLngControl.js",
   "scripts": {
