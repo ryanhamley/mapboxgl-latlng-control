@@ -1,0 +1,19 @@
+{
+  "name": "mapboxgl-latlng-control",
+  "version": "0.0.1",
+  "description": "Display latitude and longitude of mouse on MapboxGL maps",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && npm run copyHtml && babel --presets es2015,stage-0 -d dist/ control/",
+    "clean": "rm dist/*",
+    "copyHtml": "cp control/latlngcontrol.tpl.html dist/latlngcontrol.tpl.html",
+    "prepublish": "npm run compile",
+    "test": "test"
+  },
+  "author": "Ryan Hamley",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
