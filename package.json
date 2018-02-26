@@ -4,7 +4,7 @@
   "description": "Display latitude and longitude of mouse on MapboxGL maps",
   "main": "index.js",
   "scripts": {
-    "build": "npm run clean && npm run copyHtml && babel --presets es2015,stage-0 -d dist/ control/",
+    "compile": "npm run clean && npm run copyHtml && babel --presets es2015,stage-0 -d dist/ control/",
     "clean": "rm dist/*",
     "copyHtml": "cp control/latlngcontrol.tpl.html dist/latlngcontrol.tpl.html",
     "prepublish": "npm run compile",
